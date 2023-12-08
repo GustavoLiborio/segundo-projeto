@@ -23,7 +23,8 @@ header > h1{
     color: white;
     text-align: center;
     padding: 15px;
-    padding-bottom: 5px;  
+    padding-bottom: 5px;
+    line-height: 1.2em;
 }
 header > p{
     color: white;
@@ -52,15 +53,13 @@ main{
     z-index: 2;
     
 }
-main > h1{
-    padding-left: 15px;
-}
 article{
     margin-bottom: 30px;
 }
 article > h1{
    padding: 15px;
    font-family: 'japonesa';
+   font-size: 1.7em;
 }
 article > h2{
     padding: 10px;
