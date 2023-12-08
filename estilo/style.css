@@ -4,20 +4,29 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+    font-family: japonesa;
+    src: url(../fonte/go3v2.ttf);
+}
 
 body{
-    background-color: rgb(122, 255, 104);
+    background-color: #ffa1d5;
 }
 
 header{
-    background-color: rgb(0, 255, 162);
+    background-image: linear-gradient(to bottom, #F20587 , #2E038C);
+    line-height: 1.4em;
+    font-weight: bold;
+    padding: 20px;
 }
 header > h1{
+    color: white;
     text-align: center;
     padding: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;  
 }
 header > p{
+    color: white;
     text-align: center;
     padding: 10px;
     max-width: 500px;
@@ -25,9 +34,12 @@ header > p{
 }
 nav{
     padding: 5px;
+    background-color: #2E038C;
 }
 nav > a{
     padding: 15px;
+    color: white;
+    font-weight: bold;
 }
 main{
     min-width: 150px;
@@ -35,10 +47,39 @@ main{
     margin: auto;
     text-align: justify;
     background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 15px #00000061;
+    z-index: 2;
+    
 }
 main > h1{
     padding-left: 15px;
 }
+article{
+    margin-bottom: 30px;
+}
 article > h1{
-   margin-bottom: 10px;
+   padding: 15px;
+   font-family: 'japonesa';
+}
+article > h2{
+    padding: 10px;
+    font-family: 'japonesa';
+    color: #2E038C;
+}
+article p{
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    text-indent: 1.2em;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #2E038C;   
+}
+footer > p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; /* Tenho que arrumar isso preciso escolher uma fonte melhor e tals*/ 
 }
